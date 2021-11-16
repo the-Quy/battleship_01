@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+.board {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(155, 124, 85);
+  height: $boardSize;
+  width: $boardSize;
+
+  display: grid;
+  grid-template-columns: repeat(10, calc($boardSize/10));
+  grid-template-rows: repeat(10, calc($boardSize/10));
+}

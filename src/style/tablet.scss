@@ -1,0 +1,9 @@
+@import "./variables.scss";
+
+.tablet {
+  position: relative;
+  margin: auto;
+  background-color: rgb(149, 169, 187);
+  width: calc($tabletWidth/$desktopView);
+  height: calc($tabletHeight/$desktopView);
+}
