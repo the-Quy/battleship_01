@@ -1,18 +1,30 @@
 @import "./variables.scss";
 
 .board {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    // margin: 0;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // -ms-transform: translate(-50%, -50%);
+    // transform: translate(-50%, -50%);
 
-  background-color: rgb(155, 124, 85);
-  height: $boardSize;
-  width: $boardSize;
+    // background-color: rgba(155, 124, 85, 0);
+    // height: $boardSize;
+    // width: $boardSize;
 
-  display: grid;
-  grid-template-columns: repeat(10, calc($boardSize/10));
-  grid-template-rows: repeat(10, calc($boardSize/10));
+    display: grid;
+    grid-template-columns: repeat(10, calc($boardSize/10));
+    grid-template-rows: repeat(10, calc($boardSize/10));
+}
+
+.background-board {
+    height: $boardGridSize; // background image
+    width: $boardGridSize;
+    background-image: url("../svg/board.svg");
+    background-repeat: no-repeat;
+    background-size: $boardGridSize $boardGridSize;
+
+    display: flex; //center the child
+    align-items: center;
+    justify-content: center;
 }

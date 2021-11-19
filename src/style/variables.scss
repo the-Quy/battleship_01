@@ -1,10 +1,12 @@
 // tablet
-$tabletWidth: 2360px;
-$tabletHeight: 1640px;
+$tabletWidth: calc(2360px * 0.5);
+$tabletHeight: calc($tabletWidth * 0.695);
 $desktopView: 1;
+$tabletColor: rgba(231, 16, 16, 0.212);
 // board
-$boardSize: 1500px;
-$tileSize: 150px;
-$boardColor: rgb(92, 96, 98);
+$boardGridSize: calc($tabletHeight * 0.95);
+$boardSize: calc($tabletHeight * 0.9);
+$tileSize: calc($boardSize/10);
+$boardColor: rgba(79, 245, 13, 0.226);
 // tile
-$tileColor: rgb(123, 184, 214);
+$tileColor: rgba(32, 8, 245, 0.0);
