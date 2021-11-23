@@ -1,0 +1,10 @@
+@import "./variables.scss";
+
+.Ship4 {
+  height: $tileSize;
+  width: $tileSize*4;
+  background-image: url("../svg/Ship4.svg");
+  background-repeat: no-repeat;
+
+  background-color: burlywood;
+}

@@ -1,0 +1,26 @@
+.board {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (calc($boardSize/10))[10];
+      grid-template-columns: repeat(10, calc($boardSize/10));
+  -ms-grid-rows: (calc($boardSize/10))[10];
+      grid-template-rows: repeat(10, calc($boardSize/10));
+}
+
+.background-board {
+  height: calc($tabletHeight * .93);
+  width: calc($tabletHeight * .93);
+  background-image: url("../svg/board.svg");
+  background-repeat: no-repeat;
+  background-size: calc($tabletHeight * .93) calc($tabletHeight * .93);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=board.css.map */

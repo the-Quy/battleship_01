@@ -1,14 +1,28 @@
-.title {
-    text-align: center;
-    
+@import "./variables.scss";
 
-    color: red;
+.title {
+  text-align: center;
+  color: red;
 }
 
-.boardArea{
-    display: flex; //center the child
-    align-items: center;
-    justify-content: center;
+.title_area {
+  background-color: rgb(212, 187, 155);
+  height: 200px;
+  width: $boardGridSize;
+}
 
+.center_child {
+  display: flex; //center the child
+  align-items: center;
+  justify-content: center;
+}
 
+.kills,
+.fleet {
+  background-color: rgb(21, 148, 80);
+  height: $boardGridSize;
+}
+
+.container {
+  max-width: 100%;
 }

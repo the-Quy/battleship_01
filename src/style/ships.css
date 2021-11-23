@@ -1,0 +1,7 @@
+.Ship4 {
+  height: calc($boardSize/10);
+  width: calc($boardSize/10);
+  background-image: url("../svg/Ship4.svg");
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=ships.css.map */

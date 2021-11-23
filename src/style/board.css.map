@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EAYH,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,+BAA+B;EACtD,kBAAkB,EAAE,+BAA+B;CACtD;;AAED,AAAA,iBAAiB,CAAC;EACd,MAAM,ECdM,yBAAyB;EDerC,KAAK,ECfO,yBAAyB;EDgBrC,gBAAgB,EAAE,uBAAuB;EACzC,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EClBH,yBAAyB,CAAzB,yBAAyB;EDoBrC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "board.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "board.css"
+}

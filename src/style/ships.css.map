@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EACL,MAAM,ECKG,mBAAmB;EDJ5B,KAAK,ECII,mBAAmB;EDH5B,gBAAgB,EAAE,uBAAuB;EAEzC,iBAAiB,EAAE,SAAS;CAC7B",
+    "sources": [
+        "ships.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "ships.css"
+}
