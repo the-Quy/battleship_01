@@ -1,9 +1,6 @@
 import "../style/tile.scss";
-import { useDrop } from 'react-dnd'
-import React from 'react';
 
-export default function Tile({ value, click,position,onDrop, color, stateCouleur }) {
-  
+export default function Tile({ value, click }) {
   return (
     <>
       <div className="tile__container">

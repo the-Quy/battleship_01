@@ -23,4 +23,8 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.oneTest {
+  background-color: rgba(0, 0, 255, 0.1);
+}
 /*# sourceMappingURL=board.css.map */

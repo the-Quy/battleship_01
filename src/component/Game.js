@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import "../style/board.scss";
 import Tile from "./Tile";
-
-
+import Board from "./Board";
 
 const size = 10;
 
-export default function Board() {
-    const [allValues, setValues] = useState(Array(100).fill(null)); //-----> tic tac toe
+export default function Game() {
+  const [allValues, setValues] = useState(Array(100).fill(null)); //-----> tic tac toe
   const [stateCouleurs, setCouleurs] = useState(Array(size * size).fill(null)); //-----> dragdrop
   const DropItem = (position, item, stateCouleur) => {
     let newState = stateCouleur.slice(0);
@@ -16,14 +15,14 @@ export default function Board() {
     setCouleurs(newState);
   }; //-----> dragdrop
 
-    const nextSymbole = "X"; //-----> tic tac toe
+  const nextSymbole = "X"; //-----> tic tac toe
 
-    function onClickTile(index) {
-      let maCopie = allValues.slice();
-      console.log(maCopie);
-      maCopie[index] = nextSymbole;
-      setValues(maCopie);
-    } //-----> tic tac toe
+  function onClickTile(index) {
+    let maCopie = allValues.slice();
+    console.log(maCopie);
+    maCopie[index] = nextSymbole;
+    setValues(maCopie);
+  } //-----> tic tac toe
 
   function fabriqueTile(index) {
     return (
@@ -48,7 +47,6 @@ export default function Board() {
 
     const row = <div>{ligneSquare}</div>;
     arraySquare.push(row);
-    
   }
   return (
     <div>

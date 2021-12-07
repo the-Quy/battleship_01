@@ -1,4 +1,4 @@
-import Game from "./Game";
+import Board from "./Board";
 import ShipsToPlace from "./ShipsToPlace";
 import Ship4 from "./Ship4";
 import "../style/interface.scss";
@@ -36,7 +36,7 @@ function App() {
             <div>
               <div>
                 <div className="center_child">
-                  <Game />
+                  <Board />
                 </div>
               </div>
             </div>
